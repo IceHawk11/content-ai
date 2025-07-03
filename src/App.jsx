@@ -2,8 +2,8 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { FileText, Hash, MessageCircle, Mail, Tag, Lightbulb, Send, Loader2 } from 'lucide-react'
 
-const API_BASE_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:3001/api'
-console.log('Backend URL:', import.meta.env.VITE_BACKEND_URL);
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000'
+console.log('Backend URL:', import.meta.env.VITE_API_URL);
 
 
 function App() {
